@@ -1,0 +1,248 @@
+
+.grteeting{
+    padding-bottom: 1vh;
+    text-align: center;
+    color: #709335;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+body{
+	background-color: #113660 ;
+}
+
+h2{
+	font-size: 0.8rem;
+	font-style: italic;
+}
+
+.row p{
+	padding-left: 2vw;
+	font-size: 0.72rem;
+
+}
+
+
+
+/* Media media query */
+
+@media screen and (min-width: 320px) and (max-width: 360px ){
+
+.rest {
+   display: flex;
+   flex-direction: column;
+   padding-left: 1vw;
+   padding-right: 1vw;
+} 
+.rest .image{
+   display: flex;
+   flex-direction: column;
+    align-self: center;
+}
+.rest .row{
+   display: flex;
+   flex-direction: column;
+}
+.row .icon{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.row img {
+    border: 1px #D04724;
+    border-radius: 50px;
+    padding: 1vw;
+    height: 15vw;
+    width: 15vw;
+}
+.image p{
+    font-size:  0.8rem;
+    position: relative;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+.image img{
+ border-radius: 20px;
+ width: 40vw;
+ height: 40vw;
+}
+}
+
+
+
+@media screen and (min-width: 360px) and (max-width: 375px){
+
+.rest {
+   display: flex;
+   flex-direction: column;
+   padding-left: 1vw;
+   padding-right: 1vw;
+} 
+.rest .image{
+   display: flex;
+   flex-direction: column;
+    align-self: center;
+}
+.rest .row{
+   display: flex;
+   flex-direction: column;
+}
+.row .icon{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.row img {
+    border: 1px #D04724;
+    border-radius: 50px;
+    padding: 1vw;
+    height: 10vw;
+    width: 10vw;
+}
+.image img{
+ border-radius: 20px;
+ width: 40vw;
+ height: 40vw;
+
+}
+.image p{
+    font-size:  0.8rem;
+    position: relative;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 412px){
+
+:root {
+    font-size: 20px;
+}
+.rest {
+   display: flex;
+   flex-direction: column;
+   padding-left: 1vw;
+   padding-right: 1vw;
+} 
+.rest .image{
+   display: flex;
+   flex-direction: column;
+    align-self: center;
+}
+.rest .row{
+   display: flex;
+   flex-direction: column;
+}
+.row .icon{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.row img {
+
+    border: 1px #D04724;
+    border-radius: 50px;
+    padding: 1vw;
+    height: 15vw;
+    width: 15vw;
+}
+.image img{
+ border-radius: 20px;
+ width: 40vw;
+ height: 40vw;
+}
+.image p{
+    font-size:  0.8rem;
+    position: relative;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+}
+
+
+
+@media screen and (min-width: 414px) and (max-width: 600px){
+
+:root {
+    font-size: 27px;
+}
+.rest {
+   display: flex;
+   flex-direction: column;
+   padding-left: 1vw;
+   padding-right: 1vw;
+} 
+.rest .image{
+   display: flex;
+   flex-direction: column;
+    align-self: center;
+}
+.rest .row{
+   display: flex;
+   flex-direction: column;
+}
+.row .icon{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.row img {
+
+    border: 1px #D04724;
+    border-radius: 50px;
+    padding: 1vw;
+    height: 15vw;
+    width: 15vw;
+}
+.image img{
+ border-radius: 20px;
+ width: 45vw;
+ height: 45vw;
+}
+.image p{
+    font-size:  0.8rem;
+    position: relative;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+}
+
+
+
+
+
+@media screen and (min-width: 601px){
+
+ .rest {
+   display: flex;
+   flex-direction: row;
+   padding-left: 1vw;
+   padding-right: 1vw;
+} 
+.rest .image{
+   display: flex;
+   flex-direction: column;
+   padding-left: 10px
+}
+.rest .row{
+   display: flex;
+   flex-direction: column;
+   padding-left: 50px;
+}   
+:root {
+    font-size: 25px;
+}
+.image img{
+ border-radius: 20px;
+ width: 18vw;
+ height: 45vh;
+}
+.row img {
+
+    border: 1px #D04724;
+    border-radius: 50px;
+    padding: 1vw;
+    width: 7vw;
+}
+}
